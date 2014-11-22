@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>Blog</title>
+        <description>Blog - Mehdi Ghanimifard</description>
+        <link>http://mmehdig.github.io</link>
+        <link>http://mmehdig.github.io</link>
+        <lastBuildDate>2014-11-22T06:38:36+01:00</lastBuildDate>
+        <pubDate>2014-11-22T06:38:36+01:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>What happened to my old blog?</title>
+                <description>
+&lt;p&gt;
+I killed it! &lt;br /&gt;
+Don&#39;t worry I will start writing again!
+&lt;/p&gt;
+</description>
+                <link>http://mmehdig.github.io/2014/11/22/what-happened-to-my-old-blog</link>
+                <guid>http://mmehdig.github.io/2014/11/22/what-happened-to-my-old-blog</guid>
+                <pubDate>2014-11-22T00:00:00+01:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>
