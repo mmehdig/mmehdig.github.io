@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Semantics and Meaning</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body><div class="container"><h1 id="semantic-representation-integrated-model-of-language-and-perception">Semantic representation: <em>Integrated Model of Language and Perception</em> </h1>
+
+<p>In this report, we look closely at different categories of meaning representations. On the first section, we explore two primary semantic representations with focus on their treatment of elementary lexical units in natural languages. Then on the second section, we survey elaborate models which their goal is to deal with complex expressions. On the third section, we will show some examples of multimodal models for grounded language understanding as an integration of language and perception. Finally, before making a conclusion, we will discuss about arguments in favour or against different approaches. </p>
+
+<h2 id="1-lexical-semantic-representations">1. Lexical Semantic Representations</h2>
+
+<h3 id="11-formal-semantics">1.1. Formal Semantics</h3>
+
+<ul>
+<li>A formal language considered as the representation of intended meanings of natural languages. Then the semantics of the formal language is taken as granted.</li>
+<li>A well formed formula represents each lexical units (e.g. <script type="math/tex" id="MathJax-Element-1091">\lambda</script>-functions). The syntactic roles of each lexicon defines the type of the semantic units.</li>
+<li>The syntactical composition of the units (structure of the complex expressions) produces the meaning representations of phrases and sentences in logical form.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Example 1</strong> <br>
+  <script type="math/tex" id="MathJax-Element-1092">\langle\langle dog \rangle\rangle  = \lambda x. \mathsf{dog}(x)</script> <br>
+  <script type="math/tex" id="MathJax-Element-1093">\langle\langle runs\rangle\rangle = \lambda x. \mathsf{run}(x)</script> <br>
+  <script type="math/tex" id="MathJax-Element-1094">\langle\langle a\rangle\rangle = \lambda P. \exists x. P(x)</script> <br>
+  <script type="math/tex" id="MathJax-Element-1095">\langle\langle a\ dog\ runs\rangle\rangle = \exists x. \mathsf{runs}(\mathsf{dog}(x))</script></p>
+</blockquote>
+
+<h3 id="12-semantic-space-models-vector-space-models">1.2. Semantic Space Models (Vector Space Models)</h3>
+
+<ul>
+<li>A measure for semantic similarities can create an algebraic space of concepts and their distances.</li>
+<li>The semantic spaces are usually modelled in form of vectors spaces with <em>Distributional Hypothesis</em> as a measure for semantic similarity.</li>
+<li>The distributional hypothesis indicates that words that occur in the same contexts tend to have similar meanings.</li>
+<li>The <em>Bag of Words model</em> or the <em>skip-gram model</em> are most common techniques to implement the distributional hypothesis.</li>
+<li>In these models usually vectors represent lexemes and their cosine distance are measures of meaning similarities.</li>
+<li>There are several algorithms to implement the vector spaces: <br>
+<ul><li>Count-models (vectors are directly based on frequency of co-occurrences: LDA and LSI) </li>
+<li>Predict-models (vectors are arbitrary and random but they get updated on gradient decent: Word2Vec)</li></ul></li>
+</ul>
+
+<blockquote>
+  <p><strong>Example 2</strong> <br>
+  A normalised 3-dimensional word vector space model: <br>
+  <script type="math/tex; mode=display" id="MathJax-Element-1096">
+|king\rangle = \begin{bmatrix}0.6 \\ 0.8 \\ 0\end{bmatrix}
+|queen\rangle = \begin{bmatrix}0.42 \\ 0.57 \\ 0.71\end{bmatrix} \\
+|he\rangle = \begin{bmatrix}0.61 \\ 0.77 \\ 0.15\end{bmatrix}
+|she\rangle = \begin{bmatrix}0.34 \\ 0.55 \\ 0.76\end{bmatrix} \\
+|a\rangle = \begin{bmatrix}0.52 \\ 0.58 \\ 0.63\end{bmatrix} 
+|is\rangle = \begin{bmatrix}0.63 \\ 0.58 \\ 0.52\end{bmatrix}
+</script> <br>
+  <script type="math/tex" id="MathJax-Element-1097">Simlarity(king, queen) = \langle king|queen \rangle= 0.6\times0.42 + 0.8\times0.57 + 0\times0.71 = 0.708</script></p>
+</blockquote>
+
+<ul>
+<li>There are also some evidence that these representations can capture more regularities<a href="#fn:word2vec" id="fnref:word2vec" title="See footnote" class="footnote">1</a> than simple semantic similarities.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Example 3</strong> <br>
+  <script type="math/tex; mode=display" id="MathJax-Element-1098">
+(|king\rangle - |queen\rangle) - |she \rangle \approx |he \rangle  \\
+|king\rangle - |queen\rangle = \begin{bmatrix}0.6-0.42 \\ 0.8-0.57 \\ 0-0.71\end{bmatrix} = \begin{bmatrix}0.28 \\ 0.23 \\ -0.71\end{bmatrix} \\
+unit(|king\rangle - |queen\rangle) = |\hat{a}\rangle = \begin{bmatrix}0.35 \\ 0.29 \\ -0.51\end{bmatrix} \\
+|\hat{a}\rangle + |she\rangle = \begin{bmatrix}0.35+0.34 \\ 0.29+0.55 \\ -0.51+0.76\end{bmatrix} = \begin{bmatrix}0.69 \\ 0.84 \\ 0.25\end{bmatrix} \\
+unit(|\hat{a}\rangle + |she\rangle) = |\hat{b}\rangle =\begin{bmatrix}0.61 \\ 0.75 \\ 0.22\end{bmatrix} \approx |he\rangle = \begin{bmatrix}0.61 \\ 0.77 \\ 0.15\end{bmatrix} \\
+</script></p>
+</blockquote>
+
+
+
+<h2 id="2-compositional-representations">2. Compositional Representations</h2>
+
+<h3 id="21-neural-language-models-with-memory">2.1 Neural Language Models with Memory</h3>
+
+<ul>
+<li>Neural Language Models can be seen as generalisation of another predict models but their ability to capture common phrases.</li>
+<li>Recurrent Neural Networks, such as LSTM, provide a semantic encoder-decoder units which can be described as a complex semantic space models.</li>
+<li>The aim in LSTM and similar memory treatment recurrent neural networks</li>
+<li>Encoder-Decoder (Cho et. al 2014)</li>
+</ul>
+
+<h3 id="22-compositional-vector-space-models">2.2. Compositional Vector Space Models</h3>
+
+<ul>
+<li>vector matrix space model </li>
+<li>A semantic parser plays an inportant role</li>
+<li>Using a formal language as mediator or a translation of distributional models. </li>
+</ul>
+
+<h2 id="3-grounded-language-models">3. Grounded Language Models</h2>
+
+<h3 id="31-task-oriented-models">3.1. Task oriented models</h3>
+
+<h4 id="311-qa-task">3.1.1. QA task</h4>
+
+<p>Question answering is a common task</p>
+
+<h4 id="312-machine-translation-task">3.1.2. Machine Translation Task</h4>
+
+<p>Translation as grounded model</p>
+
+<h4 id="313-instructions-task">3.1.3. Instructions task</h4>
+
+<p>Mapping natural language instructing into internal commands of a robot</p>
+
+<h5 id="image-description">Image description</h5>
+
+<p>Finding or generating image description.</p>
+
+<h4 id="attention-models-in-neural-networks">Attention models in Neural Networks</h4>
+
+<h4 id="type-theory-with-record-ttr-as-a-model-of-perception">Type Theory with Record (TTR) as a model of perception</h4>
+
+<ul>
+<li>Type Theory with Records by introducing records and record types extends the formal language representation.</li>
+<li>The aim in TTR is to provide a theory for perception and semantic reasoning.</li>
+</ul>
+
+<h3 id="discussions">Discussions</h3>
+
+<h4 id="asher-arguments">Asher arguments</h4>
+
+<h4 id="harnad-symbol-grounding-groblem">Harnad Symbol Grounding Groblem</h4>
+
+
+
+<h4 id="compositionality-in-non-linguistic-representations">Compositionality in non-linguistic representations</h4><div class="footnotes"><hr><ol><li id="fn:word2vec">In word2vec, this relation is expressed as a compositionallity of vector spaces. (Mikolove et al. 2013) <a href="#fnref:word2vec" title="Return to article" class="reversefootnote">↩</a></li></ol></div></div></body>
+</html>
