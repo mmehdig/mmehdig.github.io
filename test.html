@@ -11,23 +11,29 @@
 
 <p>In this report, we look closely at different categories of meaning representations. On the first section, we explore two primary semantic representations with focus on their treatment of elementary lexical units in natural languages. Then on the second section, we survey elaborate models which their goal is to deal with complex expressions. On the third section, we will show some examples of multimodal models for grounded language understanding as an integration of language and perception. Finally, before making a conclusion, we will discuss about arguments in favour or against different approaches. </p>
 
+
+
 <h2 id="1-lexical-semantic-representations">1. Lexical Semantic Representations</h2>
+
+
 
 <h3 id="11-formal-semantics">1.1. Formal Semantics</h3>
 
 <ul>
 <li>A formal language considered as the representation of intended meanings of natural languages. Then the semantics of the formal language is taken as granted.</li>
-<li>A well formed formula represents each lexical units (e.g. <script type="math/tex" id="MathJax-Element-1091">\lambda</script>-functions). The syntactic roles of each lexicon defines the type of the semantic units.</li>
+<li>A well formed formula represents each lexical units (e.g. <script type="math/tex" id="MathJax-Element-1">\lambda</script>-functions). The syntactic roles of each lexicon defines the type of the semantic units.</li>
 <li>The syntactical composition of the units (structure of the complex expressions) produces the meaning representations of phrases and sentences in logical form.</li>
 </ul>
 
 <blockquote>
   <p><strong>Example 1</strong> <br>
-  <script type="math/tex" id="MathJax-Element-1092">\langle\langle dog \rangle\rangle  = \lambda x. \mathsf{dog}(x)</script> <br>
-  <script type="math/tex" id="MathJax-Element-1093">\langle\langle runs\rangle\rangle = \lambda x. \mathsf{run}(x)</script> <br>
-  <script type="math/tex" id="MathJax-Element-1094">\langle\langle a\rangle\rangle = \lambda P. \exists x. P(x)</script> <br>
-  <script type="math/tex" id="MathJax-Element-1095">\langle\langle a\ dog\ runs\rangle\rangle = \exists x. \mathsf{runs}(\mathsf{dog}(x))</script></p>
+  <script type="math/tex" id="MathJax-Element-2">\langle\langle dog \rangle\rangle  = \lambda x. \mathsf{dog}(x)</script> <br>
+  <script type="math/tex" id="MathJax-Element-3">\langle\langle runs\rangle\rangle = \lambda x. \mathsf{run}(x)</script> <br>
+  <script type="math/tex" id="MathJax-Element-4">\langle\langle a\rangle\rangle = \lambda P. \exists x. P(x)</script> <br>
+  <script type="math/tex" id="MathJax-Element-5">\langle\langle a\ dog\ runs\rangle\rangle = \exists x. \mathsf{runs}(\mathsf{dog}(x))</script></p>
 </blockquote>
+
+
 
 <h3 id="12-semantic-space-models-vector-space-models">1.2. Semantic Space Models (Vector Space Models)</h3>
 
@@ -45,7 +51,7 @@
 <blockquote>
   <p><strong>Example 2</strong> <br>
   A normalised 3-dimensional word vector space model: <br>
-  <script type="math/tex; mode=display" id="MathJax-Element-1096">
+  <script type="math/tex; mode=display" id="MathJax-Element-6">
 |king\rangle = \begin{bmatrix}0.6 \\ 0.8 \\ 0\end{bmatrix}
 |queen\rangle = \begin{bmatrix}0.42 \\ 0.57 \\ 0.71\end{bmatrix} \\
 |he\rangle = \begin{bmatrix}0.61 \\ 0.77 \\ 0.15\end{bmatrix}
@@ -53,7 +59,7 @@
 |a\rangle = \begin{bmatrix}0.52 \\ 0.58 \\ 0.63\end{bmatrix} 
 |is\rangle = \begin{bmatrix}0.63 \\ 0.58 \\ 0.52\end{bmatrix}
 </script> <br>
-  <script type="math/tex" id="MathJax-Element-1097">Simlarity(king, queen) = \langle king|queen \rangle= 0.6\times0.42 + 0.8\times0.57 + 0\times0.71 = 0.708</script></p>
+  <script type="math/tex" id="MathJax-Element-7">Simlarity(king, queen) = \langle king|queen \rangle= 0.6\times0.42 + 0.8\times0.57 + 0\times0.71 = 0.708</script></p>
 </blockquote>
 
 <ul>
@@ -62,7 +68,7 @@
 
 <blockquote>
   <p><strong>Example 3</strong> <br>
-  <script type="math/tex; mode=display" id="MathJax-Element-1098">
+  <script type="math/tex; mode=display" id="MathJax-Element-8">
 (|king\rangle - |queen\rangle) - |she \rangle \approx |he \rangle  \\
 |king\rangle - |queen\rangle = \begin{bmatrix}0.6-0.42 \\ 0.8-0.57 \\ 0-0.71\end{bmatrix} = \begin{bmatrix}0.28 \\ 0.23 \\ -0.71\end{bmatrix} \\
 unit(|king\rangle - |queen\rangle) = |\hat{a}\rangle = \begin{bmatrix}0.35 \\ 0.29 \\ -0.51\end{bmatrix} \\
@@ -75,6 +81,8 @@ unit(|\hat{a}\rangle + |she\rangle) = |\hat{b}\rangle =\begin{bmatrix}0.61 \\ 0.
 
 <h2 id="2-compositional-representations">2. Compositional Representations</h2>
 
+
+
 <h3 id="21-neural-language-models-with-memory">2.1 Neural Language Models with Memory</h3>
 
 <ul>
@@ -84,6 +92,8 @@ unit(|\hat{a}\rangle + |she\rangle) = |\hat{b}\rangle =\begin{bmatrix}0.61 \\ 0.
 <li>Encoder-Decoder (Cho et. al 2014)</li>
 </ul>
 
+
+
 <h3 id="22-compositional-vector-space-models">2.2. Compositional Vector Space Models</h3>
 
 <ul>
@@ -92,42 +102,75 @@ unit(|\hat{a}\rangle + |she\rangle) = |\hat{b}\rangle =\begin{bmatrix}0.61 \\ 0.
 <li>Using a formal language as mediator or a translation of distributional models. </li>
 </ul>
 
+
+
 <h2 id="3-grounded-language-models">3. Grounded Language Models</h2>
 
+
+
 <h3 id="31-task-oriented-models">3.1. Task oriented models</h3>
+
+
 
 <h4 id="311-qa-task">3.1.1. QA task</h4>
 
 <p>Question answering is a common task</p>
 
+
+
 <h4 id="312-machine-translation-task">3.1.2. Machine Translation Task</h4>
 
 <p>Translation as grounded model</p>
+
+
 
 <h4 id="313-instructions-task">3.1.3. Instructions task</h4>
 
 <p>Mapping natural language instructing into internal commands of a robot</p>
 
-<h5 id="image-description">Image description</h5>
 
-<p>Finding or generating image description.</p>
 
-<h4 id="attention-models-in-neural-networks">Attention models in Neural Networks</h4>
+<h4 id="314-image-description">3.1.4. Image description</h4>
 
-<h4 id="type-theory-with-record-ttr-as-a-model-of-perception">Type Theory with Record (TTR) as a model of perception</h4>
+<p>Finding or generating image description.  <br>
+(+Attention models in Neural Networks)</p>
+
+
+
+<h3 id="32-probabilistic-joint-models">3.2. Probabilistic Joint Models</h3>
+
+<ul>
+<li>Matuszek example</li>
+</ul>
+
+
+
+<h3 id="33-type-theory-with-record-ttr-as-a-model-of-perception">3.3. Type Theory with Record (TTR) as a model of perception</h3>
 
 <ul>
 <li>Type Theory with Records by introducing records and record types extends the formal language representation.</li>
 <li>The aim in TTR is to provide a theory for perception and semantic reasoning.</li>
 </ul>
 
-<h3 id="discussions">Discussions</h3>
 
-<h4 id="asher-arguments">Asher arguments</h4>
 
-<h4 id="harnad-symbol-grounding-groblem">Harnad Symbol Grounding Groblem</h4>
+<h2 id="4-discussions">4. Discussions</h2>
 
 
 
-<h4 id="compositionality-in-non-linguistic-representations">Compositionality in non-linguistic representations</h4><div class="footnotes"><hr><ol><li id="fn:word2vec">In word2vec, this relation is expressed as a compositionallity of vector spaces. (Mikolove et al. 2013) <a href="#fnref:word2vec" title="Return to article" class="reversefootnote">↩</a></li></ol></div></div></body>
+<h3 id="41-asher-arguments">4.1.  Asher arguments</h3>
+
+
+
+<h3 id="42-harnad-symbol-grounding-groblem">4.2. Harnad Symbol Grounding Groblem</h3>
+
+
+
+<h3 id="43-compositionality-in-non-linguistic-representations">4.3. Compositionality in non-linguistic representations</h3>
+
+
+
+<h2 id="5-conclusion">5. Conclusion</h2>
+
+<div class="footnotes"><hr><ol><li id="fn:word2vec">In word2vec, this relation is expressed as a compositionallity of vector spaces. (Mikolove et al. 2013) <a href="#fnref:word2vec" title="Return to article" class="reversefootnote">↩</a></li></ol></div></div></body>
 </html>
