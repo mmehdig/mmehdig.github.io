@@ -20,20 +20,31 @@
 <h3 id="11-formal-semantics">1.1. Formal Semantics</h3>
 
 <ul>
-<li>A formal language considered as the representation of intended meanings of natural languages. Then the semantics of the formal language is taken as granted.</li>
-<li>A well formed formula represents each lexical units (e.g. <script type="math/tex" id="MathJax-Element-1">\lambda</script>-functions). The syntactic roles of each lexicon defines the type of the semantic units.</li>
-<li>The syntactical composition of the units (structure of the complex expressions) produces the meaning representations of phrases and sentences in logical form.</li>
+<li>A formal language considered as the representation of intended meanings of natural languages. Then the semantics of the formal language is taken for granted.</li>
+<li>A well formed formula represents each lexical units (e.g. <script type="math/tex" id="MathJax-Element-5335">\lambda</script>-functions). The syntactic roles of each lexicon defines the type of the semantic units.</li>
+<li>The syntactic composition of the units produces the semantic representations for the complex expressions. </li>
 </ul>
 
 <blockquote>
   <p><strong>Example 1</strong> <br>
-  <script type="math/tex" id="MathJax-Element-2">\langle\langle dog \rangle\rangle  = \lambda x. \mathsf{dog}(x)</script> <br>
-  <script type="math/tex" id="MathJax-Element-3">\langle\langle runs\rangle\rangle = \lambda x. \mathsf{run}(x)</script> <br>
-  <script type="math/tex" id="MathJax-Element-4">\langle\langle a\rangle\rangle = \lambda P. \exists x. P(x)</script> <br>
-  <script type="math/tex" id="MathJax-Element-5">\langle\langle a\ dog\ runs\rangle\rangle = \exists x. \mathsf{runs}(\mathsf{dog}(x))</script></p>
+  1. <script type="math/tex" id="MathJax-Element-5336">\langle [_N \mathrm{dog}] \rangle  = \lambda x. \mathsf{dog}(x)</script> <br>
+  2. <script type="math/tex" id="MathJax-Element-5337">\langle [_{VP} \mathrm{runs}] \rangle = \lambda P\ x. P(x) \land \mathsf{run}(x)</script> <br>
+  3. <script type="math/tex" id="MathJax-Element-5338">\langle [_{Det}\mathrm{a}] \rangle = \lambda P \lambda Q. \exists x. Q(P(x))</script> <br>
+  4. <script type="math/tex" id="MathJax-Element-5339">\langle [_{NP}[_{Det} \alpha]\ [_N \beta]] \rangle = \langle [\alpha]_{Det}\rangle(\langle[\beta]_N \rangle)</script>  <br>
+  5. <script type="math/tex" id="MathJax-Element-5340">\langle [_S[_{NP}\alpha]\ [_{VP}\beta]] \rangle = \langle [\alpha]_{NP}\rangle(\langle[\beta]_{V} \rangle)</script> <br>
+  <script type="math/tex" id="MathJax-Element-5341">\implies \langle [_{NP}[_{Det}\mathrm{a}]\ [_{N}\mathrm{dog}]]\rangle = \lambda Q. \exists x. Q(\mathsf{dog}(x))</script> <br>
+  <script type="math/tex" id="MathJax-Element-5342">\implies \langle [_S[_{NP}[_{Det}\mathrm{a}]\ [_{N}\mathrm{dog}]]\ [_{V}\mathrm{runs}]]\rangle = \exists x. \mathsf{dog}(x) \land  \mathsf{runs}(x))</script></p>
 </blockquote>
 
+<p></p><ul> <br>
+<li>In these representations, we can consider the well-formed formulas as <em>senses</em> and their denotations as <em>references</em>. </li>
+<li>In natural language processing, a semantic parser will be used to map the natural language into these formal representations.  <br></li></ul><p></p>
 
+<blockquote>
+  <p><strong>Example 2 (semantic parser)</strong> <br>
+  <script type="math/tex" id="MathJax-Element-5343">``a\ dog\ runs" \implies [_S[_{NP}[_{Det}\mathrm{a}]\ [_{N}\mathrm{dog}]]\ [_{V}\mathrm{runs}]]</script>
+  </p>
+</blockquote>
 
 <h3 id="12-semantic-space-models-vector-space-models">1.2. Semantic Space Models (Vector Space Models)</h3>
 
@@ -51,7 +62,7 @@
 <blockquote>
   <p><strong>Example 2</strong> <br>
   A normalised 3-dimensional word vector space model: <br>
-  <script type="math/tex; mode=display" id="MathJax-Element-6">
+  <script type="math/tex; mode=display" id="MathJax-Element-5353">
 |king\rangle = \begin{bmatrix}0.6 \\ 0.8 \\ 0\end{bmatrix}
 |queen\rangle = \begin{bmatrix}0.42 \\ 0.57 \\ 0.71\end{bmatrix} \\
 |he\rangle = \begin{bmatrix}0.61 \\ 0.77 \\ 0.15\end{bmatrix}
@@ -59,7 +70,7 @@
 |a\rangle = \begin{bmatrix}0.52 \\ 0.58 \\ 0.63\end{bmatrix} 
 |is\rangle = \begin{bmatrix}0.63 \\ 0.58 \\ 0.52\end{bmatrix}
 </script> <br>
-  <script type="math/tex" id="MathJax-Element-7">Simlarity(king, queen) = \langle king|queen \rangle= 0.6\times0.42 + 0.8\times0.57 + 0\times0.71 = 0.708</script></p>
+  <script type="math/tex" id="MathJax-Element-5354">Simlarity(king, queen) = \langle king|queen \rangle= 0.6\times0.42 + 0.8\times0.57 + 0\times0.71 = 0.708</script></p>
 </blockquote>
 
 <ul>
@@ -68,8 +79,8 @@
 
 <blockquote>
   <p><strong>Example 3</strong> <br>
-  <script type="math/tex; mode=display" id="MathJax-Element-8">
-(|king\rangle - |queen\rangle) - |she \rangle \approx |he \rangle  \\
+  <script type="math/tex; mode=display" id="MathJax-Element-5355">
+|king\rangle - |queen\rangle \approx |he \rangle - |she \rangle  \\
 |king\rangle - |queen\rangle = \begin{bmatrix}0.6-0.42 \\ 0.8-0.57 \\ 0-0.71\end{bmatrix} = \begin{bmatrix}0.28 \\ 0.23 \\ -0.71\end{bmatrix} \\
 unit(|king\rangle - |queen\rangle) = |\hat{a}\rangle = \begin{bmatrix}0.35 \\ 0.29 \\ -0.51\end{bmatrix} \\
 |\hat{a}\rangle + |she\rangle = \begin{bmatrix}0.35+0.34 \\ 0.29+0.55 \\ -0.51+0.76\end{bmatrix} = \begin{bmatrix}0.69 \\ 0.84 \\ 0.25\end{bmatrix} \\
