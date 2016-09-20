@@ -17,9 +17,7 @@ layout: default
 
     {% if site.disqus.shortname %}
     <footer>
-      <ul>
-        <li><a href="{{ site.posts.first.url | prepend: site.baseurl }}">+Comments</a></li>
-      </ul>
+      <p><a href="{{ site.posts.first.url | prepend: site.baseurl }}">+Comments</a></p>
     </footer>
     {% endif %}
 
