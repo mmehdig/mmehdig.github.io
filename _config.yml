@@ -18,7 +18,7 @@ email: mehdi@mmehdig.com
 author: Mehdi Ghanimifard
 description: In this website I will share thoughts works and codes.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "//mehdi.ghanimifard.com" # the base hostname & protocol for your site
+url: "http://mehdi.ghanimifard.com" # the base hostname & protocol for your site
 #url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 twitter_username: mmehdig
 github_username:  mmehdig
