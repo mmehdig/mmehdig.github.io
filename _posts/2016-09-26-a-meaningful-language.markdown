@@ -22,7 +22,8 @@ I like this lecture by Raymond J. Mooney (2013): "[Grounded Language Learning](h
 
 $$ Zebra = Horse\ \&\ Stripes $$
 
-I will write about the idea in future. 
+I will write about the idea in future.
 
+#### Footnotes
 
 [^PI43]: #43 Philosophical Investigation, Ludwig Wittgenstein (1953).
