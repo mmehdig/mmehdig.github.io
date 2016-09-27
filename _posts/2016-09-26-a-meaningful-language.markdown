@@ -24,6 +24,11 @@ $$ Zebra = Horse\ \&\ Stripes $$
 
 I will write about the idea in future.
 
+Oh, by the way! what happened next with the landlady! She came back in an hour and gave me this book!
+
+![english-catalan-book](/images/english-catalan.jpeg)
+
+
 #### Footnotes
 
 [^PI43]: #43 Philosophical Investigation, Ludwig Wittgenstein (1953).
