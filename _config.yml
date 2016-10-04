@@ -23,6 +23,7 @@ url: "http://mehdi.ghanimifard.com" # the base hostname & protocol for your site
 twitter_username: mmehdig
 github_username:  mmehdig
 instagram_username:  mmehdig
+google_analytics: UA-391649-3
 
 # Build settings
 markdown: kramdown
