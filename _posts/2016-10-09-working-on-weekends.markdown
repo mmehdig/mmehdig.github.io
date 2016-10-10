@@ -31,7 +31,7 @@ bash-3.2$ jupyter notebook
 [I 12:16:13.792 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 {% endhighlight %}
 
-Now that we have running server on localhost on 'A', Back on 'B' we want to be able to open it on browser. But first we have to forward this connection to localhost of 'B'. I chose to forward it on similar port (`8888`) on 'B'. So, open a new terminal on 'B':
+Now that we have our running server on localhost:8888 of 'A', back on 'B' we want to be able to open it on browser. My solution is to forward the localhost port on 'A' to another port on localhost of 'B'. I chose the similar port (`8888`) on 'B'. So, you need to open a new terminal on 'B' just for port forward:
 
 {% highlight shell %}
 home-user$ ssh -l work-user -L 8888:127.0.0.1:8888 192.168.111
@@ -39,4 +39,4 @@ Password:
 work-user$
 {% endhighlight %}
 
-It's ready to go! Open the browser and go to `http://127.0.0.1:8888`. I will write about [TensorFlow](https://www.tensorflow.org) experience maybe next week!
+It's ready to go! Open the browser and go to `http://127.0.0.1:8888`. Maybe, the only annoying part of using iPython for TensorFlow is the fact that you cannot debug your code with `tf.Print`. In general it is nice to have this interactive environment in iPython with freedom of going up and down on your code, while creating a learning graph in TensorFlow. I will try to write about [TensorFlow](https://www.tensorflow.org) experience next week! 
