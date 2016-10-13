@@ -16,3 +16,7 @@ I am sure you can [google me](https://www.google.com/webhp?q=Mehdi+Ghanimifard) 
 - Sure! Maybe! I only have people in my Facebook's friends list who I have physically met.
 3. I have a question how can I contact you?
 - Try that google thing and find my email, phone number or whatever works for you!
+4. How do you write your name in your native language?
+- My mother tongue is Persian and I write it this way: "مهدی". My surname is "غنیمی‌فرد".
+5. چرا از اول فارسی نمی‌نویسی که مخاطب‌های فارسی زبان بیشتری داشته باشی؟
+- چشم فارسی هم در آینده می‌نویسم. وبلاگ من خیلی قدیم کامل فارسی بود.
