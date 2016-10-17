@@ -55,7 +55,7 @@ Yes, as simple as this. Maybe this part is a bit strange for python programmers,
 
 $$ 1 + 2 = 3 $$
 
-In my experiment, I will generate random examples of add operation: A sequence of words and their expected equivalence (e.g. `["1", "+", "2", "</eos>"]` as input and `["3"]` as target). I treated each operand ("1", "2", ...) and operator (e.g. "+") as symbols with no value. Basically, I used a simple one-hot encoding to vectorize them. This simple code using preprocessing of Scikit-learn would do this for me:
+In my experiment, I will generate random examples of add operation: A sequence of words and their expected equivalence (e.g. `["1", "+", "2", "</eos>"]` as input and `["3"]` as target). I treated each operand ("1", "2", ...) and operator (e.g. "+") as symbols with no value. Basically, I used a simple one-hot encoding to vectorize them. This simple code using [preprocessing of Scikit-learn](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) would do this for me:
 
 {% highlight python %}
 from sklearn.preprocessing import OneHotEncoder
