@@ -43,7 +43,7 @@ sess.close()
 
 Yes, as simple as this. Maybe this part is a bit strange for python programmers, `A` and `B` in session part are pointing at `A` and `B` in graph.
 
- ### My toy project
+### My toy project
 
  Do you remember my post about meaningful language? I quoted Harnad (1990):
 
