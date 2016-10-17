@@ -45,7 +45,7 @@ Yes, as simple as this. Maybe this part is a bit strange for python programmers,
 
 ### My toy project
 
- Do you remember my post about [meaningful language]({% post_url _posts/2016-09-26-a-meaningful-language.markdown %})? I quoted Harnad (1990):
+ Do you remember my post about [meaningful language]({% post_url 2016-09-26-a-meaningful-language %})? I quoted Harnad (1990):
 
  $$ Horse\ \&\ Stripes = Zebra $$
 
