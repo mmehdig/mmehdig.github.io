@@ -80,7 +80,7 @@ print("1 =>", input_encoder.transform([input_vocab_ids[input_vocab.index("1")]])
 # 1 => [[ 0.  0.  1.  0.  0.  0.  0.  0.  0.  0.]]
 {% endhighlight %}
 
-The LSTM model needs it's own blog post I will explain that later. Story short, with a larger set of vocabulary the LSTM training process will take time but it converges to a state which can take string inputs and give you equivalence string outputs.
+The LSTM model needs its own blog post I will explain that later. Story short, with a larger set of vocabulary the LSTM training process will take time but it converges to a state which can take string inputs and give you equivalence string outputs.
 
 This model is naively simple and definitely doesn't learn meaning of number and addition as humans do. A simple test on unseen words shows that how weak is our design. But the interesting aspect is the ability to learn ordered composition from examples. using this model. I performed this training with numbers between 0 and 49. I over fitted the model with 97% accuracy on training set. The error rate still matches the rate of unseen combination (trained with 33% of all possible combinations and test on rest of them produces 99% error on unseen examples). But its performance on unseen examples is not very bad with different perspective. Consider this, all of these results are string, and my error rate is based on being correct agains incorrect. For example, an unseen combination "33 + 44 =" my system produces "78". But if you consider numeric values of these strings the variance of errors on unseen combinations are not very high (I don't have the results yet). The most important errors are in unseen (out of range) words.
 
