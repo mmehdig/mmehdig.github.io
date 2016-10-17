@@ -49,7 +49,7 @@ Yes, as simple as this. Maybe this part is a bit strange for python programmers,
 
  $$ Horse\ \&\ Stripes = Zebra $$
 
- I am trying out different models which learn compositionality from data. One of these models is recurrent neural network called LSTM, which basically can be used as an encoder-decoder ([Cho et al. 2014](https://arxiv.org/abs/1406.1078)) who takes a sequence of inputs and produce outputs. In this example, if sequence of `["horse", "stripes"]` as input and `["zebra"]` as output. We encode each word with a vector to be able to do our magical mathematical operations, I will talk about word embeddings in future but lets jump to my toy example.
+ I am trying out different models which learn compositionality from data. One of these models is recurrent neural network called LSTM, which basically can be used as an encoder-decoder ([Cho et al. 2014](https://arxiv.org/abs/1406.1078)) who takes a sequence of inputs and produce outputs. In this example, sequence of `["horse", "stripes"]` is input and `["zebra"]` should be the output. We encode each word with a vector to be able to do our magical mathematical operations, I will talk about word embeddings in future but lets jump to my toy example.
 
  What I will test here in my toy experiment is much simpler than my zebra example. The compositionality is much more clear in simple math operations such as adding two natural numbers $$ a + b = c $$:
 
