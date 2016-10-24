@@ -8,7 +8,7 @@ comments: true
 
 I would like to address a misconception about artificial intelligence. I think it is becoming a common believe between academics and intellectuals that we can constantly improve artificial intelligence. It is hard for me to make any claim in favor or against it. In fact, I believe there is a misconception about growth of machine's intelligence, similar to [our many other misconceptions](https://www.youtube.com/watch?v=Sm5xF-UYgdg). Well, we are bad at generalization on things that we don't receive in their correct channels until we look into right numbers, in their right scale. Let me explain why I think this is a problem, and focus on a subject.
 
-Recently, Sam Harris, famous philosopher and neuroscientist, had a talk on TED about danger of loosing control over AI. He had claims that I believe they are badly misleading and it's common between many academics and intellectuals. Before explaining the problem that I see I should explain his reasons correctly.
+Recently, Sam Harris, famous philosopher and neuroscientist, had a talk on TED about danger of losing control over AI. He had claims that I believe they are badly misleading and it's common between many academics and intellectuals. Before explaining the problem that I see I should explain his reasons correctly.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8nt3edWLgIg" frameborder="0" allowfullscreen></iframe>
 
