@@ -15,7 +15,7 @@ Let me give you a simple definition for grounded semantics, there are two ways t
 
 They are trying to model vagueness for color representations and give it possibility of being used in pragmatic reasoning (the examples are in demo section of their published code).
 
-There are two recent work [a short paper](https://arxiv.org/abs/1606.03821) and [a poster](https://arxiv.org/abs/1609.08777) showing up in [EMNLP 2016](http://www.emnlp2016.net/program/program.html), which they are doing things that I am interested in. They basically exposed the idea of using encoder-decoder model for colors. It's like machine translation for colors. (translate the given color code to English, or with a given word what would be the most likely color). In recent machine learning seminar in Chalmers, I talked about these works, here is [the slides](https://docs.google.com/presentation/d/1esqSjNuwp3fmjjdOIZl8blUkB6-wdSNKqXzjd6YhZMQ/edit) (I wasn't aware of the word-to-color work at that time).
+There are two recent work [a short paper](https://arxiv.org/abs/1606.03821) and [a poster](https://arxiv.org/abs/1609.08777) showing up in [EMNLP 2016](http://www.emnlp2016.net/program/program.html), which they are doing things that I am interested in. They basically exposed the idea of using encoder-decoder model for colors. It's like machine translation for colors. (translate the given color code to English, or with a given word what would be the most likely color). In recent machine learning seminar in Chalmers, I talked about these works, here is [the slides](https://docs.google.com/presentation/d/1esqSjNuwp3fmjjdOIZl8blUkB6-wdSNKqXzjd6YhZMQ) (I wasn't aware of the word-to-color work at that time).
 
 What is my problem now?
 
