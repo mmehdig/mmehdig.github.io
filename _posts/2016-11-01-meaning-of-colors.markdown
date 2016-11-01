@@ -19,6 +19,6 @@ There are two recent work [a short paper](https://arxiv.org/abs/1606.03821) and 
 
 What is my problem now?
 
-Well, I am trying to make sense of many problems that I see if we consider [principles of compositionality](http://plato.stanford.edu/entries/compositionality/) for color semantics. For starter, I think negation is the most problematic part (what does "not red" mean?, can you incrementally learn compositional "not" in "not red"?). I will come with some code and examples later, this might be interesting for [representation learning](https://en.wikipedia.org/wiki/Feature_learning) community.
+Well, I am trying to make sense of problems that I see if we consider [principles of compositionality](http://plato.stanford.edu/entries/compositionality/) for color semantics. For starter, I think negation is the most problematic part (what does "not red" mean?, can you incrementally learn compositional "not" in "not red"?). I will come with some code and examples later, this might be interesting for [representation learning](https://en.wikipedia.org/wiki/Feature_learning) community.
 
 I am not going to publish any post next week. But hopefully the week after that, I will have some codes and explanation of what I am working on :D.
