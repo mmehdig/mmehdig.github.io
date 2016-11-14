@@ -89,7 +89,7 @@ d
 \end{array} \forall\ w_i \in VOC\ (all\ basic\ types)\ \forall\ i \in \{1, ..., d\}\ (index\ of\ words)
 $$
 
-The number of dimensions $$d$$ is equal to the size of our vocabulary $$d=|VOC|$$. We can also represent the the vocabulary with an identity matrix.
+The number of dimensions $$d$$ is equal to the size of our vocabulary $$d=\|VOC\|$$. We can also represent the the vocabulary with an identity matrix.
 
 $$
 I_{d \times d} = \left[\begin{array}
