@@ -176,13 +176,15 @@ The challenge in this stage is to understand the input data, output data and how
 Ok, here it is what I want to do: I want to create two arrays in parallel, `X_train` as input, and `Y_train` as output.
 They consist of samples from datapoint, each sample has a sequence of description words, the input starts with start tag '<s>' and output ends with end tag '</s>':
 
-Example:
+For example:
 
+{% highlight text %}
 input: '<s> ugly dark blue'
 output: 'ugly dark blue </s>'
 
 input: '<s> dark blue -'
 output: 'dark blue - </s>'
+{% endhighlight %}
 
 The only thing we need to do is to convert them in to vectors instead of taking them as strings.
 In addition to this, each word-vector in input, according to the decoder model, needs to be concatenated with color feature vector.
