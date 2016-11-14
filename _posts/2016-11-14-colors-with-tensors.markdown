@@ -202,7 +202,7 @@ Conclusion: we need a way to read mini-batches from file in a size which fits ou
 {% highlight python %}
 COLOR_FEATURE_SIZE = 3 # h,s,v vector
 
-MAX_PHRASE_LEN = 4
+MAX_PHRASE_LEN = 3
 PADDING_VEC = one_hot_encoder.transform([[voc_prep.index("")]]).toarray()
 BEGIN_VEC = one_hot_encoder.transform(list(feature_extractor("<s>"))).toarray()
 END_VEC = one_hot_encoder.transform(list(feature_extractor("</s>"))).toarray()
