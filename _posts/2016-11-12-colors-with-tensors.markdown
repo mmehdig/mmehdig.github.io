@@ -62,7 +62,7 @@ i \\
 ... \\
 d-1 \\
 d
-\end{array} \forall\ i \in \{1, ..., d\}\ (index\ of\ features)
+\end{array} \forall\ i \in \{1, ..., d\}\ (index\ of\ features\ /\ words)
 $$
 
 It can also be interpreted as a vector representation for discrete probability distribution.
