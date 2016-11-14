@@ -418,3 +418,55 @@ for epoch in range(epoch_number):
 {% endhighlight %}
 
 Lots of work, ha?
+
+### The top 10 descriptions
+
+In addition to the learning model. I wanted to have code to show how it works. Then I thought let's write a beam search which finds top something descriptions and their probability!
+
+Here is the code, I will add more description later. Probably there are better implementations out there, this is just a quick respond.
+
+{% highlight python %}
+n_beam = 10
+phrase_vectors_inits = [np.array(BEGIN_VEC)]
+prev_choices = [(list(feature_extractor("<s>")),0)]
+for i in range(MAX_PHRASE_LEN+1):
+    curr_choices = []
+    for j in range(len(prev_choices)):
+        padding_number = MAX_PHRASE_LEN - phrase_vectors_inits[j].shape[0] + 1
+        phrase_vectors = np.concatenate((
+                phrase_vectors_inits[j],
+                np.repeat(PADDING_VEC, padding_number, axis=0)
+            ), axis=0)
+        color_vectors = np.array([test_color] * (MAX_PHRASE_LEN+1))
+
+        X_input = np.concatenate((color_vectors, phrase_vectors),axis=1)
+
+        results = sess.run(predictions, {
+            X: [X_input]
+        })
+
+        # top n_beam of this level:
+        word_ids = np.argpartition(results[i][0], -n_beam)[-n_beam:]
+        # new set of choices:
+        # word_id and its logit
+        curr_choices.append([
+                ([word_id], softmax(results[i][0])[word_id])
+                for word_id in word_ids
+            ])
+
+    new_paths = sorted([
+        (prev_log_prob + np.log(new_prob), prev_word_ids+[new_word_id])
+        for j, (prev_word_ids, prev_log_prob) in enumerate(prev_choices)
+        for new_word_id, new_prob in curr_choices[j]
+    ])
+
+    prev_choices = [(word_ids, log_prob) for log_prob, word_ids in new_paths][-n_beam:]
+    phrase_vectors_inits = [
+        one_hot_encoder.transform(word_ids).toarray()
+        for word_ids, log_prob in prev_choices
+    ]
+
+for word_ids, log_prob in prev_choices:
+    print(np.exp(log_prob), [voc_prep[word_id[0]] for word_id in word_ids])
+
+{% endhighlight %}
