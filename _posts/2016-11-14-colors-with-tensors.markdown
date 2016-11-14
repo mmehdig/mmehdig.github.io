@@ -36,9 +36,9 @@ training_hndl = munroecorpus.get_training_handles()
 original_keys = list(training_hndl[0].keys())
 # convert '-' to ' ' in order to get parts of words such as "greenish-blue".
 color_phrases = [phrase.replace('-', ' ') for phrase in original_keys]
-voc = set(word for phrase in color_phrases for word in phrase.split())
-{% endhighlight %}
+voc = list(set(word for phrase in color_phrases for word in phrase.split()))+["","<s>","</s>"]{% endhighlight %}
 
+Notice that I also put empty string and a start and end tokens in my vocabulary.
 Now, that our vocabulary is ready, we can create an encoder which makes vector representation of these words.
 The easiest way to encode vocabulary is one-hot encoding. Basically, the assumption of one-hot representations is that no word in vocabulary shares any feature with other words.
 In other word, we have a feature space in size of the vocabulary, represents each symbol with a binary vector with `1` in its corresponding dimension and `0` in others, {0: absent, 1: present}.
@@ -201,7 +201,7 @@ Conclusion: we need a way to read mini-batches from file in a size which fits ou
 COLOR_FEATURE_SIZE = 3 # h,s,v vector
 
 MAX_PHRASE_LEN = 3
-PADDING_VEC = one_hot_encoder.transform([[voc_prep.index("")]]).toarray()
+PADDING_VEC = one_hot_encoder.transform([[voc.index("")]]).toarray()
 BEGIN_VEC = one_hot_encoder.transform(list(feature_extractor("<s>"))).toarray()
 END_VEC = one_hot_encoder.transform(list(feature_extractor("</s>"))).toarray()
 
@@ -256,9 +256,6 @@ def read_in_batch(batch_size, randomize=True):
                 X_train.append(np.concatenate((color_vectors, phrase_vectors[:-1]),axis=1))
                 Y_train.append(phrase_vectors[1:])
 
-                # debug:
-                # print(color_key, color_feature_vector)
-
                 if len(X_train) == batch_size:
                     yield X_train, Y_train
                     X_train = []
@@ -266,10 +263,7 @@ def read_in_batch(batch_size, randomize=True):
 
     yield X_train, Y_train
 
-# debug
-for d in read_in_batch(5, len_step=2):
-    #print(d)
-    break
+
 {% endhighlight %}
 
 ## TensorFlow
