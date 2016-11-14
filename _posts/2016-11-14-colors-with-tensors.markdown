@@ -132,8 +132,6 @@ def feature_extractor(sentence):
     for word in sentence.split():
         if word in voc:
             yield [voc.index(word)]
-        else:
-            yield [voc.index('<unknown>')]
 
 # example usage:
 example_vectorized = one_hot_encoder.transform(list(feature_extractor("ugly dark blue green"))).toarray()
@@ -155,7 +153,7 @@ This is the inverse of the function, which we will need in future:
 # the reverse process:
 def features_to_types(vectors):
     for vector in vectors:
-        yield(voc_prep[np.argmax(vector)])
+        yield(voc[np.argmax(vector)])
 
 print("The reversed process:\nargmax_x{P(x|word)} = word")
 print(" ".join([word for word in features_to_types(example_vectorized)]))
