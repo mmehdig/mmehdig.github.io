@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Colors with tensors
-date:   2016-11-12 23:59:59 +0200
+date:   2016-11-14 23:59:59 +0200
 categories: blog
 comments: true
 ---
