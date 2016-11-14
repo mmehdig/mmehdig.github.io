@@ -8,7 +8,7 @@ comments: true
 
 Finally, my implementation of color descriptor in TensorFlow!
 
-Two weeks ago I had post about color meaning. Today I want to go through an implementation of color descriptor. Basically, the resulted machinery will take a color (in HSV form) and produces a suitable description. I am basically trying to reimplement [this work](https://arxiv.org/abs/1606.03821).
+Two weeks ago I had a post about color meanings. Today I want to go through an implementation of color descriptor. Basically, the resulted machinery will take a color (in HSV form) and produces a suitable description. This is a reimplementation of [this work](https://arxiv.org/abs/1606.03821).
 
 These descriptions are learned from the Munroe's color survey preprocessed in [RUGSTK](http://mcmahan.io/lux/) (with very little modification which you can see here)
 
