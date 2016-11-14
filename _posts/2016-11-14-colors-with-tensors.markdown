@@ -459,7 +459,7 @@ for i in range(MAX_PHRASE_LEN+1):
     ]
 
 for word_ids, log_prob in prev_choices:
-    print(np.exp(log_prob), [voc_prep[word_id[0]] for word_id in word_ids])
+    print(np.exp(log_prob), [voc[word_id[0]] for word_id in word_ids])
 
 {% endhighlight %}
 
