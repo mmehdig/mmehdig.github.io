@@ -280,13 +280,16 @@ First, you create a graph of tensors and their flow in network with operations. 
 
 ### Graph of tensors and operations
 
-Most things that you write in TensorFlow like `tf.something` are nodes of a graph.  I don't know the best practice now, but I know that if things are simple and readable means it's good to go. So, first trick is to always reset the graph before writing anything in graph. This makes sure that you are not problem free in interactive mode:
+Most of the things that you write in TensorFlow like `tf.something` are nodes of a graph. I like to make it simple and straight forward. Well, I don't know the best practice, but if it works and it's readable it is enough. So, first trick is to always reset the graph before writing anything in graph. This makes sure that you are not problem free in interactive mode:
 
 {% highlight text %}
 tf.reset_default_graph()
 {% endhighlight %}
 
-Then we can start with creating placeholders for data which will be fed in the graph (input and output):
+Before starting, let me give you a bigger picture. The plan is to define the graph with its flow of information. At heart of this graph, there will be a chain of LSTM cells. The setup will be similar to [Graves (2013)](https://arxiv.org/abs/1308.0850). If you want to know more about LSTM or if you think you need to see its visualization I suggest [this post by Christopher Olah](http://colah.github.io/posts/2015-08-Understanding-LSTMs/).
+
+
+Ok! We can start with creating placeholders for data which will be fed in the graph (input and output):
 
 {% highlight text %}
 # batch size is arbitrary= None
