@@ -28,6 +28,7 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
+      {% if forloop.index < 5 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -35,6 +36,11 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h4>
       </li>
+      {% else %}
+      <li>
+          <a href="{{ "/archive" | prepend: site.baseurl }}">Archive</a>
+      </li>
+      {% endif %}
     {% endfor %}
   </ul>
 
