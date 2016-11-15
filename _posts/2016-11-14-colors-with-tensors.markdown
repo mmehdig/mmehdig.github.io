@@ -286,7 +286,13 @@ Most of the things that you write in TensorFlow like `tf.something` are nodes of
 tf.reset_default_graph()
 {% endhighlight %}
 
-Before starting, let me give you a bigger picture. The plan is to define the graph with its flow of information. At heart of this graph, there will be a chain of LSTM cells. The setup will be similar to [Graves (2013)](https://arxiv.org/abs/1308.0850). If you want to know more about LSTM or if you think you need to see its visualization I suggest [this post by Christopher Olah](http://colah.github.io/posts/2015-08-Understanding-LSTMs/).
+Before starting, let me give you a bigger picture. The plan is to define the graph with its flow of information. At heart of this graph, there will be a chain of LSTM cells. The setup will be similar to [Graves (2013)](https://arxiv.org/abs/1308.0850) text prediction:
+
+\begin{equation}
+P(x_{t+1} = k|y_t) = softmax(y^k_t)
+\end{equation}
+
+Read it like this: the $$k_{th}$$ dimension of the output vector (from softmax) in step $$t$$ indicates the probability of the next word been the $$k_{th}$$ word in vocabulary). In other words, recurrent neural language model. If you want to know more about LSTM or if you think you need to see its visualization I suggest [this post by Christopher Olah](http://colah.github.io/posts/2015-08-Understanding-LSTMs/).
 
 
 Ok! We can start with creating placeholders for data which will be fed in the graph (input and output):
