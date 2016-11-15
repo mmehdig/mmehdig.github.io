@@ -37,11 +37,13 @@ layout: default
         </h4>
       </li>
       {% else %}
-      <li>
-          <a href="{{ "/archive" | prepend: site.baseurl }}">Archive</a>
-      </li>
       {% endif %}
     {% endfor %}
+      <li>
+        <h4>
+          <a href="{{ "/archive" | prepend: site.baseurl }}">Archive</a>
+        </h4>
+      </li>
   </ul>
 
 </div>
