@@ -109,17 +109,18 @@
         data.addColumn('string', 'Dependencies');
 
         console.log(rawData);
-
-        data.addRows(rawData.map(row => [
-            row[0],
-            row[1],
-            new Date(row[2]),
-            new Date(row[3]),
-            daysToMilliseconds(row[4]),
-            new Number(row[5]),
-            (row[6] === undefined)?null:row[6]
-          ])
-        );
+        if (rawData) {
+          data.addRows(rawData.map(row => [
+              row[0],
+              row[1],
+              new Date(row[2]),
+              new Date(row[3]),
+              daysToMilliseconds(row[4]),
+              new Number(row[5]),
+              (row[6] === undefined)?null:row[6]
+            ])
+          );
+        }
 
         var options = {
           height: 20*rawData.length+100
