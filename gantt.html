@@ -64,7 +64,7 @@
       function listMajors() {
         gapi.client.sheets.spreadsheets.values.get({
           spreadsheetId: '1SGZ42MjONiN_aAY-r3YvvUmbKAdkYeTaI7odd-qV9Ds',
-          range: 'Projects Data!A2:G',
+          range: 'Projects!A2:G',
         }).then(function(response) {
           var range = response.result;
           console.log(range);
