@@ -66,6 +66,7 @@
           range: 'Class Data!A2:E',
         }).then(function(response) {
           var range = response.result;
+          console.log(range);
           if (range.values.length > 0) {
             appendPre('Name, Major:');
             for (i = 0; i < range.values.length; i++) {
@@ -100,7 +101,7 @@
   </head>
   <body>
     <div id="authorize-div" style="display: none">
-      <span>Authorize access to Google Sheets API</span>
+      <span>Let Google Sheets API read the spreadsheet</span>
       <!--Button for the user to click to initiate auth sequence -->
       <button id="authorize-button" onclick="handleAuthClick(event)">
         Authorize
