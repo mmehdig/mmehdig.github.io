@@ -6,6 +6,7 @@
 
       var SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"];
 
+      var rawData = [];
       /**
        * Check if current user has authorized this application.
        */
@@ -69,7 +70,8 @@
           var range = response.result;
           console.log(range);
           if (range.values.length > 0) {
-            drawChart(range.values);
+            rawData = range.values
+            drawChart();
           } else {
             appendPre('No data found.');
           }
@@ -91,13 +93,13 @@
       }
 
       google.charts.load('current', {'packages':['gantt']});
-      //google.charts.setOnLoadCallback(loadSheetsApi);
+      google.charts.setOnLoadCallback(drawChart);
 
       function daysToMilliseconds(days) {
         return days * 24 * 60 * 60 * 1000;
       }
 
-      function drawChart(rawData) {
+      function drawChart() {
 
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'Task ID');
