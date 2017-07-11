@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is Mehdi! After a long long absence in writing blog and sharing thoughts, I am back. I am a Phd student in Computational Linguistics at University of Gothenburg since September 2015. These days I am interested in natural language processing grounded in perceptual reality. Let's see how much I can share my observations and experiments in my blog.
+This is Mehdi! After a long long absence in writing blog and sharing thoughts, I came back to writing blog posts but without any tight schedule. I am a Phd student in Computational Linguistics at University of Gothenburg since September 2015. I am interested in language modeling as models for compositionality in language in connection with other modalities such as vision. I'll try to share my work related observations, readings and my thoughts in this blog. However, sometimes I just share life experience. :)
 
-I am sure you can [google me](https://www.google.com/webhp?q=Mehdi+Ghanimifard) and see what you can find out about me on Internet. Anyway some essentials: I can confirm that my twitter account is [@mmehdig](https://twitter.com/mmehdig) which is real me not a robot. I also have a [page on university website](http://clasp.gu.se/about/people/mehdi-ghanimifard), where you can find my office address and more detailed contact information.
+I am sure you can [google me](https://www.google.com/webhp?q=Mehdi+Ghanimifard) and see what you can find out about me on Internet. Anyway, some essentials: I can confirm that my twitter account is [@mmehdig](https://twitter.com/mmehdig) which is real me not a robot. I also have a [page on university website](http://clasp.gu.se/about/people/mehdi-ghanimifard), where you can find my office address and more detailed contact information.
 
 ### Questions?
 
@@ -20,3 +20,4 @@ I am sure you can [google me](https://www.google.com/webhp?q=Mehdi+Ghanimifard) 
 - My mother tongue is Persian and I write it this way: "مهدی". My surname is "غنیمی‌فرد".
 5. چرا از اول فارسی نمی‌نویسی که مخاطب‌های فارسی زبان بیشتری داشته باشی؟
 - چشم فارسی هم در آینده می‌نویسم. وبلاگ من خیلی قدیم کامل فارسی بود.
+دلیل اصلی فارسی ننوشتن اینه که مخاطب‌هایی کاری من بیشترشان فارسی زبان نیستند.
