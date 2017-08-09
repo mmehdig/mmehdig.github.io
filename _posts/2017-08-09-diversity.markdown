@@ -28,11 +28,10 @@ we need a discourse pro to our the principles. To me, it is fine! A companies
 can ask their employees "if you say something that hurts us and other we will
 fire you" but this is definitely not a definition for an open environment.
 
-I believe they could do better by not firing someone who expressed his opinion
-in the internal memo. This action is just created a right wing martyr out of a
-smart 28 years old.
-
+I believe they could do better by turning this situation into an opportunity
+to have a serious conversation about diversity. By firing someone who expressed
+his opinion in the internal memo (although wrong), they created a right wing
+martyr out of a 28 years old.
 
 [theatlantic link]: https://www.theatlantic.com/politics/archive/2017/08/the-most-common-error-in-coverage-of-the-google-memo/536181/?utm_source=atlfb
-
 [gizmodo link]:https://gizmodo.com/exclusive-heres-the-full-10-page-anti-diversity-screed-1797564320/amp
