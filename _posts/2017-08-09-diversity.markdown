@@ -55,7 +55,7 @@ Susan Wojcicki argument is exactly about this, and not just an emotional
 response. If there is distributional difference between different groups it
 shouldn't be enough reason to say group labels must be the cause.
 
-I listened to James Damore after he got fired. I got convinced that he didn't
+I listened to [James Damore after he got fired][bloomberg]. I got convinced that he didn't
 have any political agenda. Perhaps someone could change his opinion about all
 these matter with patience and deeper arguments than making it a viral social
 media chat. Then the shallow media report on this memo turned put Google in
@@ -72,3 +72,4 @@ more than firing those who don't understand why diversity matters.
 [theatlantic link]: https://www.theatlantic.com/politics/archive/2017/08/the-most-common-error-in-coverage-of-the-google-memo/536181/?utm_source=atlfb
 [gizmodo link]:https://gizmodo.com/exclusive-heres-the-full-10-page-anti-diversity-screed-1797564320/amp
 [fortune link]:http://fortune.com/2017/08/09/google-diversity-memo-wojcicki/
+[bloomberg]: https://www.youtube.com/watch?v=s4WoeOkj2Ng
