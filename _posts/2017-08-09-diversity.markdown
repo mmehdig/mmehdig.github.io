@@ -42,13 +42,32 @@ hurtful a talking point is to others only goes toward more gaps. By firing
 someone who expressed his absurd opinion in an internal memo, they created a
 right wing martyr out of this guy.
 
-In final words, I have to express even more that I don't see any point in
+My main criticism is not toward Google. The problem is that for many years
+conservative arguments although they tried to support it with statistical
+evidence are doomed to be shamed. This is where people like James Damore
+suddenly find old invalid statements attractive and they think these are
+scientific consensus because there is not that much arguments against them.
+The fallacy in his argument which became the center point for his firing is
+where he claimed maybe the causation to distributional differences in
+personalities among different genders is based on biological differences. He
+basically placed little value on difference between correlation and causation.
+Susan Wojcicki argument is exactly about this, and not just an emotional
+response. If there is distributional difference between different groups it
+shouldn't be enough reason to say group labels must be the cause.
+
+I listened to James Damore after he got fired. I got convinced that he didn't
+have any political agenda. Perhaps someone could change his opinion about all
+these matter with patience and deeper arguments than making it a viral social
+media chat. Then the shallow media report on this memo turned put Google in
+this position.
+
+Finally, I have to express even more that I don't see any point in
 creating discourse based on blandly false claims. ‌But when one side of the
-argument is choosing to reason based on factless statements the discourse must
-be about agreeing on what we all accept as facts. If we skip this step, any
-other attempts is doomed to be considered as subjective personal opinions. I
-simply think that if Google truly want to deal with diversity problem, they must
-do more than firing those who don't understand why diversity matters.
+argument chose to reason based on factless statements the discourse must be
+about agreeing on what we all accept as facts. If we skip this step, any other
+attempts is doomed to be considered as subjective personal opinions. I simply
+think that if Google truly want to deal with diversity problem, they must do
+more than firing those who don't understand why diversity matters.
 
 [theatlantic link]: https://www.theatlantic.com/politics/archive/2017/08/the-most-common-error-in-coverage-of-the-google-memo/536181/?utm_source=atlfb
 [gizmodo link]:https://gizmodo.com/exclusive-heres-the-full-10-page-anti-diversity-screed-1797564320/amp
