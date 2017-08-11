@@ -22,8 +22,8 @@ lines and his words hurt a group of people, at the same time I believe he was
 treated unfairly by the media and his former employer. Frankly, I believe firing
 him was the easiest option for Google but not the best. It seems to me they
 wanted to get rid of attacks from media. The message by the VP of Diversity in
-Google, Danielle Brown, didn't really convinced me. In her letter (you can fide
-it in first I put above), she argues in order to build an open, inclusive
+Google, Danielle Brown, didn't really convinced me. In her letter (also in
+Gizmodo link above), she argues in order to build an open, inclusive
 environment, we need a discourse pro to our the principles. To me, it is fine!
 A company can ask their employees "if you say things that hurt our values and
 other colleagues we will fire you" but this easily can land in the opposite
