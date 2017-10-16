@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Diversity
-date:   2017-08-09 16:00:00 +0200
+date:   2017-08-09 23:00:00 +0200
 categories: blog
 comments: true
 ---
@@ -18,20 +18,58 @@ Google fired the guy. I read [this article in the Atlantic][theatlantic link],
 which convinced me to take a look at the full-text memo (the Gizmodo link above).
 
 I came to this conclusion: This former-googler (28yrs James Damore) crossed some
-lines on a politically sensitive issue at the same time I believe he is treated
-unfairly by the media and his former employer. Frankly, I believe firing him was
-the easiest option for Google. It seems they wanted to get rid of attacks from
-media and redirect it to specific person. But the message by the VP of Diversity
-in Google, Danielle Brown, didn't convince me. In her letter (you can fide it in
-first Gizmodo link), she argues for "Building an open, inclusive environment",
-we need a discourse pro to our the principles. To me, it is fine! A companies
-can ask their employees "if you say something that hurts us and other we will
-fire you" but this is definitely not a definition for an open environment.
+lines and his words hurt a group of people, at the same time I believe he was
+treated unfairly by the media and his former employer. Frankly, I believe firing
+him was the easiest option for Google but not the best. It seems to me they
+wanted to get rid of attacks from media. The message by the VP of Diversity in
+Google, Danielle Brown, didn't really convinced me. In her letter (also in
+Gizmodo link above), she argues in order to build an open, inclusive
+environment, we need a discourse pro to our the principles. To me, it is fine!
+A company can ask their employees "if you say things that hurt our values and
+other colleagues we will fire you" but this easily can land in the opposite
+definition of an open environment.
 
-I believe they could do better by turning this situation into an opportunity
-to have a serious conversation about diversity. By firing someone who expressed
-his opinion in the internal memo (although wrong), they created a right wing
-martyr out of a 28 years old.
+I found [Susan Wojcicki's comments][fortune link] (CEO of YouTube) more
+relevant. She expressed how painful it is to read such hurtful claims from
+a co-worker. Then, she argues that if we replace the word "Women" with other
+groups, for example "Blacks", then it would be imaginable to have a "universal
+call for swift action against its author". This is actually a good point to
+start the discussion. However, I disagree with this argument that if it hurts,
+it should be banded! I believe Google could do better by turning this situation
+into an opportunity to educate staff and having a serious conversation about
+diversity in IT companies. If the goal is to build a discourse basing it on how
+hurtful a talking point is to others only goes toward more gaps. By firing
+someone who expressed his absurd opinion in an internal memo, they created a
+right wing martyr out of this guy.
+
+My main criticism is not toward Google. The problem is that for many years
+conservative arguments although they tried to support it with statistical
+evidence are doomed to be shamed. This is where people like James Damore
+suddenly find old invalid statements attractive and they think these are
+scientific consensus because there is not that much arguments against them.
+The fallacy in his argument which became the center point for his firing is
+where he claimed maybe the causation to distributional differences in
+personalities among different genders is based on biological differences. He
+basically placed little value on difference between correlation and causation.
+Susan Wojcicki argument is exactly about this, and not just an emotional
+response. If there is distributional difference between different groups it
+shouldn't be enough reason to say group labels must be the cause.
+
+I listened to [James Damore after he got fired][bloomberg]. I got convinced that he didn't
+have any political agenda. Perhaps someone could change his opinion about all
+these matter with patience and deeper arguments than making it a viral social
+media chat. Then the shallow media report on this memo turned put Google in
+this position.
+
+Finally, I have to express even more that I don't see any point in
+creating discourse based on blandly false claims. ‌But when one side of the
+argument chose to reason based on factless statements the discourse must be
+about agreeing on what we all accept as facts. If we skip this step, any other
+attempts is doomed to be considered as subjective personal opinions. I simply
+think that if Google truly want to deal with diversity problem, they must do
+more than firing those who don't understand why diversity matters.
 
 [theatlantic link]: https://www.theatlantic.com/politics/archive/2017/08/the-most-common-error-in-coverage-of-the-google-memo/536181/?utm_source=atlfb
 [gizmodo link]:https://gizmodo.com/exclusive-heres-the-full-10-page-anti-diversity-screed-1797564320/amp
+[fortune link]:http://fortune.com/2017/08/09/google-diversity-memo-wojcicki/
+[bloomberg]: https://www.youtube.com/watch?v=s4WoeOkj2Ng
