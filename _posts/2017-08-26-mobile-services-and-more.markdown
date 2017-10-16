@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Machine translation, Apple, and more
+title:  Mobile services and more
 date:   2017-08-26 16:00:00 +0200
 categories: blog
 comments: true
@@ -40,8 +40,13 @@ that Iran can take against this.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="fa" dir="rtl">۱۱% سهم بازار گوشی ایران متعلق به اپل است. احترام به حقوق مصرف کننده امروزه یک اصل است که اپل رعایت نکرده. حذف اپها را پیگیری حقوقی میکنیم.</p>&mdash; MJ Azari Jahromi (@azarijahromi) <a href="https://twitter.com/azarijahromi/status/900567260791791616">August 24, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Basically, he says Apple is not respecting the costumers right and their
-ministry will seeks for finding possible legal actions. Clearly, both companies
+Basically, he says Apple with 11% share from mobile users in Iran is not
+respecting the costumers right and they will seeks for finding possible legal
+actions. (So based on my general interest in machine translation, I tried the
+twitter's Bing translation and also Google's translation from Persian to English
+on this tweet, it was they all got the first sentence wrong!)
+
+Anyway,.. clearly, businesses, service providers, startups, 
 and costumers in Iran hurt from the Apple's decision but government regulations
 not always tries to help both groups. The government of Iran is famous for its
 censorship tools which blocks websites and access to certain parts of Internet.
