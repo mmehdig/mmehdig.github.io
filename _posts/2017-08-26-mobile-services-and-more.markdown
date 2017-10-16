@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Mobile services and more
-date:   2017-08-26 16:00:00 +0200
+date:   2017-08-28 16:00:00 +0200
 categories: blog
 comments: true
 ---
@@ -46,7 +46,7 @@ actions. (So based on my general interest in machine translation, I tried the
 twitter's Bing translation and also Google's translation from Persian to English
 on this tweet, it was they all got the first sentence wrong!)
 
-Anyway,.. clearly, businesses, service providers, startups, 
+Anyway,.. clearly, businesses, service providers, startups,
 and costumers in Iran hurt from the Apple's decision but government regulations
 not always tries to help both groups. The government of Iran is famous for its
 censorship tools which blocks websites and access to certain parts of Internet.
