@@ -29,6 +29,7 @@ google_analytics: UA-391649-3
 markdown: kramdown
 theme: minima
 comments: true
+dir: ltr
 
 disqus:
   shortname: mmehdig
