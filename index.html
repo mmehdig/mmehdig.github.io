@@ -11,7 +11,7 @@ layout: default
       <p class="post-meta"><time datetime="{{ site.posts.first.date | date_to_xmlschema }}" itemprop="datePublished">{{ site.posts.first.date | date: "%b %-d, %Y" }}</time>{% if site.posts.first.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.posts.first.author }}</span></span>{% endif %}</p>
     </header>
 
-    <div class="post-content" itemprop="articleBody">
+    <div class="post-content" itemprop="articleBody" dir="{{ site.posts.first.dir | escape }}">
       {{ site.posts.first.content }}
     </div>
 
