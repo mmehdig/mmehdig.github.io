@@ -4,7 +4,7 @@ title:  واژگان، جنسیت سیاست‌مردان و سیاست‌زنا
 date:   2018-01-21 16:00:00 +0100
 categories: blog
 comments: true
-dir: dir="rtl"
+dir: rtl
 ---
 
 
