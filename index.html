@@ -6,7 +6,7 @@ layout: default
 
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <header class="post-header">
+    <header class="post-header" dir="{{ page.dir | escape }}">
       <h1 class="post-title" itemprop="name headline">{{ site.posts.first.title | escape }}</h1>
       <p class="post-meta"><time datetime="{{ site.posts.first.date | date_to_xmlschema }}" itemprop="datePublished">{{ site.posts.first.date | date: "%b %-d, %Y" }}</time>{% if site.posts.first.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.posts.first.author }}</span></span>{% endif %}</p>
     </header>
