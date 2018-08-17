@@ -70,7 +70,7 @@ I made my analysis in [a python notebook here](https://github.com/mmehdig/acl201
 
   - `Evaluation` *[The Hitchhiker’s Guide to Testing Statistical Significance in Natural Language Processing](https://acl2018.org/paper/703)*. Rotem Dror, Gili Baumer, Segev Shlomov, Roi Reichart.
 
-- *The second paper with high number of attendance were brought "Language/Document Model" up in the list:*
+- *The second paper with high number of attendance brought "Language/Document Model" up in the list:*
   - `Language/Document Model` *[What you can cram into a single \$&amp;!#&#42; vector: Probing sentence embeddings for linguistic properties](https://acl2018.org/paper/891)*. Alexis Conneau, Germán Kruszewski, Guillaume Lample, Loïc Barrault, Marco Baroni.
 
 - *The minimum attendance rate is considered as a way to see which topics had persistent audience.*
