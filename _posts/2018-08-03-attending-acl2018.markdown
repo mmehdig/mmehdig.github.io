@@ -1,0 +1,82 @@
+---
+layout: post
+title:  What was going on in ACL 2018?
+date:   2018-08-03 16:00:00 +0100
+categories: blog
+comments: true
+---
+
+For the first time, I attended [ACL](https://acl2018.org/). During the conference I used the mobile App to plan my schedule. From the beginning I took notes and sometimes asked questions. Generally, it was an interesting but exhausting experience. On the way back from Australia, when I was killing my time on airplane, I went through my notes trying to draw conclusion out of my notes: "trends", "talking points", etc. But I realized whatever I heard and saw were my research interest not a fair report about ACL! So, I decided to use the mobile App once again in order to understand what was going on generally in this conference. Let me explain how was ACL and what I found! Keep in mind that my goal is to find "trends" and "hot topics".
+
+Before explaining the format of the conference, I would like to address the size of the conference. One of the issues which organizers raised in the opening session and also in the business session is the growing interest the NLP and CL (according to the growing number of submissions). It is indeed hard to have such big conference while covering all good works and reviewing with good quality. That was why a new chapter just began to expand the number of regional conferences in Asia-Pacific: [AACL (Asia-Pacific ACL)](https://aaclweb.org/).
+
+On Sunday, the day before the official conference talks, there were series of interesting tutorials. Then at the end, the workshop days came afterward on Thursday and Friday. Which both of these events were very interesting and useful for learning about specific research and communities related to the topic. But I won't address those on this post. I just want to report about talks and posters and perhaps objectively trends!
+
+The conference talks were held in three days. Each day, started with an invited talk at 9AM then followed with 4 sessions: one oral session in the morning, two in the evening, and a poster session shortly after the lunch time between morning and evening sessions. On third day the last oral presentations were only about the best papers. I tried to categorize them in similar categories in program in following list:
+
+#### The presented best papers in last session:
+- *[Know What You Don’t Know: Unanswerable Questions for SQuAD](https://acl2018.org/paper/1125)*. Pranav Rajpurkar, Robin Jia, Percy Liang. `question answering`
+- *['Lighter' Can Still Be Dark: Modeling Comparative Color Descriptions](https://acl2018.org/paper/1603)*. Olivia Winn, Smaranda Muresan. `semantics`
+- *[Finding syntax in human encephalography with beam search](https://acl2018.org/paper/618)*. John Hale, Chris Dyer, Adhiguna Kuncoro, Jonathan Brennan. `linguistics, psycholinguistics and cognitive modeling`
+- *[Learning to Ask Good Questions: Ranking Clarification Questions using Neural Expected Value of Perfect Information](https://acl2018.org/paper/1247)*. Sudha Rao, Hal Daumé III. `information extraction`
+- *[Let's do it "again": A First Computational Approach to Detecting Adverbial Presupposition Triggers](https://acl2018.org/paper/1348)*. Andre Cianflone, Yulan Feng, Jad Kabbara, Jackie Chi Kit Cheung. `word semantics`
+
+In total, there were 6 rooms/tracks running at the same time each had 4 talks with questions from audience between them. Some tracks had more than one session. So, if you wanted to maximize attending to talks, you could sit on specific room for 4 talks at a time on specific track, or run from one room to another during the question/answering times in order to listen to specific presentations. (So, choosing one track is equal to miss the parallel session in another track.) An alternative option was to mingle with people outside rooms specially after the poster sessions when it is easier for people to find each other. (I tried all three strategies!)
+
+According to the mobile app, there were about 1400 attendees registered for ACL events. The app had a nice feature which people could voluntarily show their interest on each specific talk/event, which automatically the app would give them a short list of locations and times of events. The number of people who used this feature was publicly visible as number of attendees. I thought this would be an interesting source of information about trends. I had enough time on airplane so I typed them down from the app on [a spreadsheet](https://docs.google.com/spreadsheets/d/1LzfXHU-wdNUQ-NnFZvBIYMVgvGR1YCI4K8GFVZNraEc/edit?usp=sharing). At the end it seems one fourth of the listed attendees actually used the app this way.
+
+Based on the conference structure, I made the spreadsheet in order to analyze the attendance data as a measure of "trend". So, one idea is to just take the size of crowd, another idea is to consider that if a specific topic had more attendance the other 5 other parallel talks had lesser attendance rate, this might be an indicator of interest on the specific topic. At the end of conference, before introducing the best papers, a short list of papers was introduced as "Honorable Mentions" I also consider the topic of these papers as generally good search with high attention on them. But the number and rate of attendees are not in favor of these talks:
+
+#### Honorable mentions at the closing session:
+- *[Coarse-to-Fine Decoding for Neural Semantic Parsing](https://acl2018.org/paper/434)*. Li Dong, Mirella Lapata. `semantic parsing`
+- *[Semantically Equivalent Adversarial Rules for Debugging NLP models](https://acl2018.org/paper/1406)*. Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin. `question answering`
+- *[Hierarchical Neural Story Generation](https://acl2018.org/paper/1251)*. Angela Fan, Mike Lewis, Yann Dauphin. `generation`
+- *[Jointly Predicting Predicates and Arguments in Neural Semantic Role Labeling](https://acl2018.org/paper/881)*. Luheng He, Kenton Lee, Omer Levy, Luke Zettlemoyer. `semantics`
+- *[Do Neural Network Cross-Modal Mappings Really Bridge Modalities?](https://acl2018.org/paper/1549)*. Guillem Collell, Marie-Francine Moens. `vision, linguistics, resource and evaluation`
+- *[Backpropagating through Structured Argmax using a SPIGOT](https://acl2018.org/paper/1248)*. Hao Peng, Sam Thomson, Noah A. Smith. `machine learning`
+- *[NASH: Toward End-to-End Neural Architecture for Generative Semantic Hashing](https://acl2018.org/paper/1022)*. Dinghan Shen, Qinliang Su, Paidamoyo Chapfuwa, Wenlin Wang, Guoyin Wang, Ricardo Henao, Lawrence Carin. `information retrieval`
+- *[Large-Scale QA-SRL Parsing](https://acl2018.org/paper/1498)*. Nicholas FitzGerald, Julian Michael, Luheng He, Luke Zettlemoyer. `semantic parsing`
+
+#### At least 100 attendees or 1/3 of attendees on each session preferred these talks:
+- *[Probabilistic FastText for Multi-Sense Word Embeddings](https://acl2018.org/paper/187)*. Ben Athiwaratkun, Andrew Wilson, Anima Anandkumar. `word semantics`
+- *[A La Carte Embedding: Cheap but Effective Induction of Semantic Feature Vectors](https://acl2018.org/paper/1520)*. Mikhail Khodak, Nikunj Saunshi, Yingyu Liang, Tengyu Ma, Brandon Stewart, Sanjeev Arora. `word semantics`
+- *[The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation](https://acl2018.org/paper/1011)*. Mia Xu Chen, Orhan Firat, Ankur Bapna, Melvin Johnson, Wolfgang Macherey, George Foster, Llion Jones, Mike Schuster, Noam Shazeer, Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Lukasz Kaiser, Zhifeng Chen, Yonghui Wu, Macduff Hughes. `machine translation`
+- *[Hierarchical Neural Story Generation](https://acl2018.org/paper/1251)*. Angela Fan, Mike Lewis, Yann Dauphin. `generation`
+- *[Unsupervised Discrete Sentence Representation Learning for Interpretable Neural Dialog Generation](https://acl2018.org/paper/298)*. Tiancheng Zhao, Kyusong Lee, Maxine Eskenazi. `dialog system`
+- *[Exemplar Encoder-Decoder for Neural Conversation Generation](https://acl2018.org/paper/1538)*. Gaurav Pandey, Danish Contractor, Vineet Kumar, Sachindra Joshi. `dialog system`
+- *[The Hitchhiker’s Guide to Testing Statistical Significance in Natural Language Processing](https://acl2018.org/paper/703)*. Rotem Dror, Gili Baumer, Segev Shlomov, Roi Reichart. `evaluation`
+- *[LSTMs Can Learn Syntax-Sensitive Dependencies Well, But Modeling Structure Makes Them Better](https://acl2018.org/paper/1175)*. Adhiguna Kuncoro, Chris Dyer, John Hale, Dani Yogatama, Stephen Clark, Phil Blunsom. `parsing`
+- *[Training Classifiers with Natural Language Explanations](https://acl2018.org/paper/1335)*. Braden Hancock, Paroma Varma, Stephanie Wang, Martin Bringmann, Percy Liang, Christopher Ré. `machine learning`
+- *[Did the Model Understand the Question?](https://acl2018.org/paper/1159)*. Pramod Kaushik Mudrakarta, Ankur Taly, Mukund Sundararajan, Kedar Dhamdhere. `question answering`
+- *[What you can cram into a single \$&amp;!#&#42;  vector: Probing sentence embeddings for linguistic properties](https://acl2018.org/paper/891)*. Alexis Conneau, Germán Kruszewski, Guillaume Lample, Loïc Barrault, Marco Baroni. `language/document model`
+- *[Zero-Shot Transfer Learning for Event Extraction](https://acl2018.org/paper/450)*. Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare Voss. `information extraction`
+- *[Exploring Semantic Properties of Sentence Embeddings](https://acl2018.org/paper/1483)*. Xunjie Zhu, Tingfeng Li, Gerard de Melo. `semantics`
+- *[Extracting Commonsense Properties from Embeddings with Limited Human Guidance](https://acl2018.org/paper/972)*. Yiben Yang, Larry Birnbaum, Ji-Ping Wang, Doug Downey. `semantics`
+
+Only one honorable mention had large size of attendees according to the data from the mobile app:
+
+- *[Hierarchical Neural Story Generation](https://acl2018.org/paper/1251)*. Angela Fan,  Mike Lewis,  Yann Dauphin.
+
+I made my analysis in [a python notebook here](https://github.com/mmehdig/acl2018_report/blob/master/ACL2018Reports.ipynb). In this post, I just point out a quick conclusion with a final graph explaining what I found.
+
+![summarized measures][summarized_measures]
+
+### Conclusions
+- *The conclusive result is that "Question Answering" was a hot topic in all five measures.*
+
+- *To highlight what we represent with this measure, a topic such as "Information Extraction" is a perfect example. It has highest number of oral presentations (5 sessions) and at least one paper in best papers, but with low attendance rate it is in middle of the this list. The topics with much less papers and higher demand came up in this ranking.*
+
+- *The popularity of some topics is the result of the popularity of a certain paper in these sessions. E.g. "Evaluation" only had one session, which means it only had 4 oral presentations. But it got high attendance on a certain papers this also gave it high rate of attendance on single session:*
+
+  - `Evaluation` *[The Hitchhiker’s Guide to Testing Statistical Significance in Natural Language Processing](https://acl2018.org/paper/703)*. Rotem Dror, Gili Baumer, Segev Shlomov, Roi Reichart.
+
+- *The second paper with high number of attendance were brought "Language/Document Model" up in the list:*
+  - `Language/Document Model` *[What you can cram into a single \$&amp;!#&#42; vector: Probing sentence embeddings for linguistic properties](https://acl2018.org/paper/891)*. Alexis Conneau, Germán Kruszewski, Guillaume Lample, Loïc Barrault, Marco Baroni.
+
+- *The minimum attendance rate is considered as a way to see which topics had persistent audience.*
+- *"Machine Learning" had a special place in the conference since the topic overlaps with many different topics. If we don't consider the honorable mention in closing session as a point of trend, similar to "Machine Learning" topics like "Dialog System", "Language/Document Model", "Machine Translation" were the next hot topics.*
+
+I have a different point of view based on my own research interest. But I guess many would agree with my observations based on these numbers. In this post, I didn't reflect Workshops and Tutorials, which we could see more face-to-face public discussions. I will talk about those observations separately.
+
+
+[summarized_measures]: https://github.com/mmehdig/acl2018_report/blob/master/summarized_measures.png?raw=true
