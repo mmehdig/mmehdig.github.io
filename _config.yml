@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Mehdi's blog
+title: Just a blog
 email: mehdi@mmehdig.com
 author: Mehdi Ghanimifard
 description: In this website I will share thoughts works and codes.
