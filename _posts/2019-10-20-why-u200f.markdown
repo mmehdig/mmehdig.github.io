@@ -1,0 +1,14 @@
+---
+layout: post
+title:  Why U200F
+date:   2019-10-20 02:40:00 +0100
+categories: blog
+comments: true
+---
+
+`U+200F` is a zero width Unicode character to mark right-to-left blocks of characters.
+In my opinion, it is a quite useless character. It makes text processing unnecessary harder, and it usually doesn't do what you need for marking direction. In fact, render engines can handle bidirectional texts, such as writing this test "این متن آزمایشی" here. Moreover, there is usually no key button in any keyboard layout dedicated for this character.
+
+Aha back to the main topic! Why do I changed my blog name to U200F?
+The answer is pretty simple. Two reasons: (1) previous name was boring "Just a blog",
+(2) it is not a secret that I am not a native English speaker. I frequently make mistake in my writing, so it needs a marker to indicate you are not reading a cleaned up regular English language text. You are welcome! :D
