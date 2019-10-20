@@ -9,9 +9,13 @@ comments: true
 `U+200F` is a zero width Unicode character to mark right-to-left blocks of characters.
 In my opinion, it is an entirely useless character. First of all, there is no button in any standard keyboard layout that I know dedicated to this character. More importantly, if you add it to the text, it makes processing it unnecessarily harder. In the end, it usually doesn't do what you need for marking direction. Render engines can handle bidirectional texts, such as writing this test "این متن آزمایشی" here.
 In fact, it is much more likely to misuse it.
+
 Take a look at this, for example:
 
 ![Example of U200f in Python](/images/u200f.python.png)
+
+The first attempt without `U+200F` is perfectly fine. However, one of the usages is correct, in which two of them are rendered as it should be!
+
 
 Aha, back to the main topic! Why did I change my blog name to U200F?
 The answer is pretty simple. Two reasons:
