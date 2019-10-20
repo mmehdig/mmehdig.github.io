@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just a blog
+title: U200F
 email: mehdi@mmehdig.com
 author: Mehdi Ghanimifard
-description: In this website I will share thoughts works and codes.
+description: U200F is a personal blog for sharing thoughts, works and code.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mehdi.ghanimifard.com" # the base hostname & protocol for your site
 #url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
