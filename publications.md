@@ -3,7 +3,8 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-List of publications
+
+#### List of publications
 
 - Ghanimifard, Mehdi, and Simon Dobnik. "What goes into a word: generating image descriptions with top-down spatial knowledge." Proceedings of the 12th International Conference on Natural Language Generation. 2019.
 [pdf](https://www.aclweb.org/anthology/W19-8668.pdf) [webpage](https://gu-clasp.github.io/generate_spatial_descriptions/)
