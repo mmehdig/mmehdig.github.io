@@ -6,6 +6,9 @@ permalink: /publications/
 
 #### List of publications
 
+[My google scholar page](https://scholar.google.com/citations?user=1NToWm0AAAAJ) might have an updated list:
+
+
 - Ghanimifard, Mehdi, and Simon Dobnik. "What goes into a word: generating image descriptions with top-down spatial knowledge." Proceedings of the 12th International Conference on Natural Language Generation. 2019.
 [pdf](https://www.aclweb.org/anthology/W19-8668.pdf) [webpage](https://gu-clasp.github.io/generate_spatial_descriptions/)
 - Ek, Adam, and Mehdi Ghanimifard. "Synthetic Propaganda Embeddings to Train a Linear Projection." Proceedings of the Second Workshop on Natural Language Processing for Internet Freedom: Censorship, Disinformation, and Propaganda. 2019.
