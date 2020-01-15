@@ -6,7 +6,7 @@ permalink: /about/
 
 This is Mehdi! I am a PhD candidate at Universitu of Gothenburg. I am interested in language modeling in connection with other modalities such as vision. This is my blog so I share several different things here, sometimes my work related observations and thoughts, and sometimes I just write about life and pictures. :)
 
-I am sure you can [google me](https://www.google.com/webhp?q=Mehdi+Ghanimifard) and see what you can find out about me on Internet. Anyways, some essentials: I can confirm that my twitter account is [@mmehdig](https://twitter.com/mmehdig) (not a robot). I also have a [page on university website](http://clasp.gu.se/about/people/mehdi-ghanimifard), where you can find my office address and more detailed  work contact information.
+I am sure you can [google me](https://www.google.com/webhp?q=Mehdi+Ghanimifard) and see what you can find out about me on Internet. Anyways, some essentials: I can confirm that my twitter account is [@mmehdig](https://twitter.com/mmehdig) (not a robot). 
 
 ### Questions?
 
