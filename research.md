@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-#### About me and my research
+### About me and my research
 
 I am PhD candidate in Computational Linguistics. My research is in grounded language generation and understanding with neural language models. The aim is to combine linguistic representations with uncertain perceptual representations in a single framework.
 
@@ -23,10 +23,9 @@ In addition to my research as PhD student, I have been TA for following courses 
 - Computational Semantics (April-June)
 
 
-#### List of publications
+## List of publications
 
-[My google scholar page](https://scholar.google.com/citations?user=1NToWm0AAAAJ) might have an updated list:
-
+[My google scholar page](https://scholar.google.com/citations?user=1NToWm0AAAAJ) might have the latest updated list. But maybe finding a better link and additional material is easier here:
 
 - Ghanimifard, Mehdi, and Simon Dobnik. "What goes into a word: generating image descriptions with top-down spatial knowledge." Proceedings of the 12th International Conference on Natural Language Generation. 2019.
 [pdf](https://www.aclweb.org/anthology/W19-8668.pdf) [webpage](https://gu-clasp.github.io/generate_spatial_descriptions/)
