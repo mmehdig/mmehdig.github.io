@@ -1,8 +1,27 @@
 ---
 layout: page
-title: Publications
-permalink: /publications/
+title: Research
+permalink: /research/
 ---
+
+#### About me and my research
+
+I am PhD candidate in Computational Linguistics. My research is in grounded language generation and understanding with neural language models. The aim is to combine linguistic representations with uncertain perceptual representations in a single framework.
+
+I think fusion of different modalities is one of the core questions in modelling meaning.
+In a sense, understanding is about changing several representations or mapping them into an actionable representation.
+Modelling language essentially deals with high level representations of concepts and their internal meanings in relation with each other.
+When we deal with grounded language in visual perception, several different levels of representations for both vision and language models is required.
+This is why neural language models are powerful tools to encode knowledge about the world as representations of concepts.
+This knowledge must be able to explain "when" and "where" system needs "what" kind of composition and fusion of representations.
+Modelling spatial language deals with all these aspects. This is why the focus of my research is mainly on spatial language.
+
+In addition to my research as PhD student, I have been TA for following courses in Master in Language Technology (MLT) programme in last three/four years:
+
+- Artificial intelligence: Cognitive systems (Formerly: "Embodied and Situated Language Processing") (November-January)
+- Statistical Methods for NLP (January to March)
+- Computational Semantics (April-June)
+
 
 #### List of publications
 
