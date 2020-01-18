@@ -31,6 +31,7 @@ header_pages:
  - archive.md
  - research.md
 
+use_math: true
 markdown: kramdown
 theme: minima
 comments: true
@@ -38,3 +39,10 @@ dir: ltr
 
 disqus:
   shortname: mmehdig
+
+kramdown:
+  math_engine: katex
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
