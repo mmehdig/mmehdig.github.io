@@ -23,7 +23,21 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        {%- include social.html -%}
+        <ul class="social-media-list">
+          {% if site.minima.social_links.github %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+          {% if site.minima.social_links.twitter %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+          <li>
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+          </li>
+        </ul>
       </div>
     </div>
 
