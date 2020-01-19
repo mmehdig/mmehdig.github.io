@@ -36,7 +36,7 @@ $on-laptop:        800px;
 // }
 
 // Import partials from the `minima` theme.
-@import "minima";
+@import "minima-{{ site.minima.skin | default: 'classic' }}";
 
 .page-content {
   background-color: #fefefe;
