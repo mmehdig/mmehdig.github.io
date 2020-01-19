@@ -20,6 +20,9 @@ description: U200F is a personal blog for sharing thoughts, works and code.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mehdi.ghanimifard.com" # the base hostname & protocol for your site
 #url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+twitter_username: mmehdig
+github_username:  mmehdig
+instagram_username:  mmehdig
 google_analytics: UA-391649-3
 
 # Build settings
