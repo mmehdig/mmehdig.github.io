@@ -25,7 +25,8 @@ In addition to my research as PhD student, I have been TA for following courses 
 
 ## List of publications
 
-[My google scholar page](https://scholar.google.com/citations?user=1NToWm0AAAAJ) might have the latest updated list. But maybe finding a better link and additional material is easier here:
+[My google scholar page](https://scholar.google.com/citations?user=1NToWm0AAAAJ) might have the latest updated list. Here is an extended [list on GU library](https://gup.ub.gu.se/publications/list?lang=en&person_id=247404).
+Or, maybe you find the following easier direct access to additional materials and codes:
 
 - Ghanimifard, Mehdi, and Simon Dobnik. "What goes into a word: generating image descriptions with top-down spatial knowledge." Proceedings of the 12th International Conference on Natural Language Generation. 2019.
 [pdf](https://www.aclweb.org/anthology/W19-8668.pdf) [webpage](https://gu-clasp.github.io/generate_spatial_descriptions/)
