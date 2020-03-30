@@ -24,4 +24,4 @@ However, now that more and more people now understand the logistic function we s
 
 
 
-- (The see the notebook [here](code/exponential_vs_logestic_graphs.html) or check it out [in github](https://github.com/mmehdig/mmehdig.github.io/tree/master/code))
+- (The see the notebook [here](code/exponential_vs_logestic_graphs.html) or check it out [on github](https://github.com/mmehdig/mmehdig.github.io/blob/master/code/exponential_vs_logestic_graphs.ipynb))
