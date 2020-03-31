@@ -6,7 +6,7 @@ categories: blog
 comments: true
 ---
 
-Because of the virus pandemic, suddenly, we all find our selfs with similar problems in WFH (working from home).
+Because of the virus pandemic, suddenly, we all found ourselves with similar issues in WFH (working from home).
 Then, we all started looking at [how an exponential process looks like](https://www.youtube.com/watch?v=Kas0tIxDvrg) and [what possible ways are a head of us](https://medium.com/@tomaspueyo/coronavirus-the-hammer-and-the-dance-be9337092b56) or [how else we can grasp the situation](https://www.youtube.com/watch?v=gxAaO2rsdIs).
 To the extent that this funny plot about exponential processes seems so real:
 
