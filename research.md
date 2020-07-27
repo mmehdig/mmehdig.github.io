@@ -43,6 +43,10 @@ Proceedings of Conference on Probability and Meaning (PaM-2020), Gothenburg, Swe
 "Spatial descriptions on a functional-geometric spectrum: the location of objects."
 Spatial Cognition XII: Proceedings of the 12th International Conference, Spatial Cognition 2020, Riga, Latvia. 2020.
 [pdf](https://gup.ub.gu.se/file/208189)
+- Mehdi Ghanimifard
+"Why the pond is not outside the frog? Grounding in contextual representations by neural language models"
+Doctoral thesis in Computational Linguistics at Department of Philosophy, Linguistics and Theory of Science. The Centre for Linguistic Theory and Studies in Probability (CLASP), University of Gothenburg. 2020.
+[url](http://hdl.handle.net/2077/64095) [source](https://github.com/gu-clasp/mehdi_thesis)
 - Ghanimifard, Mehdi, and Simon Dobnik. "What goes into a word: generating image descriptions with top-down spatial knowledge." Proceedings of the 12th International Conference on Natural Language Generation. 2019.
 [pdf](https://www.aclweb.org/anthology/W19-8668.pdf) [webpage](https://gu-clasp.github.io/generate_spatial_descriptions/)
 - Ek, Adam, and Mehdi Ghanimifard. "Synthetic Propaganda Embeddings to Train a Linear Projection." Proceedings of the Second Workshop on Natural Language Processing for Internet Freedom: Censorship, Disinformation, and Propaganda. 2019.
