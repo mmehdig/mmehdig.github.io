@@ -6,8 +6,8 @@ categories: blog
 comments: true
 ---
 
-"Bidaad" is one of the most beautiful performances of Shajarian.
-He passed away two weeks ago.
+"Bidaad" is one of the best performances of Shajarian.
+He passed away two weeks ago. 
 
 Classical Persian music has several named pieces, like musical sentences, which musician should improvise around them when composing music.
 Bidaad is one of these pieces.
@@ -16,7 +16,7 @@ bi+daad: without-"daad". The word "daad" has two senses: 1. shout, 2. justice. A
 
 In my opinion, Persian speakers appreciate this music when they follow the lyrics and attend to the way Shajarian performed it with his genuine emotion. Here is the text with my attempted of translation:
 
-*  یاری اندر کس نمی‌بینیم یاران را چه شد
+* یاری اندر کس نمی‌بینیم یاران را چه شد
   - I don't see any fellowship in anyone. What happened to the fellow companions?
 * دوستی کی آخر آمد دوستداران را چه شد
   - When did friendship come to its end? What happened to friends?
