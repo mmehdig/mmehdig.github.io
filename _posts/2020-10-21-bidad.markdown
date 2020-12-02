@@ -7,7 +7,7 @@ comments: true
 ---
 
 "Bidaad" is one of the best performances of Shajarian.
-He passed away two weeks ago. 
+He passed away two weeks ago.
 
 Classical Persian music has several named pieces, like musical sentences, which musician should improvise around them when composing music.
 Bidaad is one of these pieces.
@@ -61,4 +61,4 @@ In my opinion, Persian speakers appreciate this music when they follow the lyric
 * از که می‌پرسی که دور روزگاران را چه شد
   - Who do you ask all these questions about the course of time?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4HLLWOUzVx0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dv3iiMoMSbg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
