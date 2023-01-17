@@ -5,7 +5,7 @@ permalink: /about/
 ---
 Dear visitors,
 
-This is Mehdi! I am a PhD candidate at the University of Gothenburg. My research is around grounded language modelling with neural networks. This website is my blog. So, I share several different things here: sometimes my work/research-related observations and thoughts, and sometimes I write up about life and pictures. :)
+This is Mehdi! I am a Machine Learning Engineer and a Computational Linguist. My PhD research was around grounded language modelling with neural networks and my current machine learning work is focused applicaiton of large neural language models in legal domain. This website is my blog. So, I share several different things here: sometimes my work/research-related observations and thoughts, and sometimes I write up about life even pictures. :)
 
 I am sure you can [google me](https://www.google.com/webhp?q=Mehdi+Ghanimifard) and see what you can find out about me on the Internet. I can also confirm that my twitter account is [@mmehdig](https://twitter.com/mmehdig) (not a robot).
 
