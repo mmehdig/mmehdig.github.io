@@ -4,17 +4,20 @@ title: Research
 permalink: /research/
 ---
 
-### About me and my research
+### About me
 
-I am a computational linguist. Recently I have defended my doctoral thesis on grounded language generation and understanding with neural language models. The aim was to combine linguistic representations with uncertain perceptual representations in a single framework.
+I am a computational linguist. 
+I have defended my doctoral thesis on grounded language generation and understanding with neural language models.
+The aim was to combine linguistic representations with uncertain perceptual representations in a single framework.
 
-I think fusion of different modalities is one of the core questions in modelling meaning.
+<!---
+I think fusion of different modalities is one of the core questions to answer in modelling meaning.
 In a sense, understanding is about changing several representations to be able to map them into actionable representations.
 Modelling language essentially deals with high level representations of concepts and their internal meanings in relation with each other.
 When we deal with grounded language in visual perception, several different layers of representations are required for both vision and language.
 This is why neural language models are powerful tools to encode knowledge, because they can capture some knowledge about the world and their internal relations as concepts.
 These knowledge must be able to explain "when" and "where" system needs "what" kind of composition and fusion of representations.
-
+-->
 In addition to my research, as a PhD student, I was the teaching assistant for following courses in Master in Language Technology (MLT) programme at GU and co-supervisor in a few master projects.
 
 - Artificial intelligence: Cognitive systems (Formerly: "Embodied and Situated Language Processing") (November-January, 2017, 2018, 2019, 2020)
@@ -22,6 +25,7 @@ In addition to my research, as a PhD student, I was the teaching assistant for f
 - Computational Semantics (April-June 2016, 2017, 2018, 2019, 2020)
 - Dialog Systems I (2016)
 
+Since January 2021, I have joined the DocuSign AI group in Sweden. Since then, my focus has shifted to more product-driven research on applications of large language models (LLMs) in a wide range of machine learning tasks in our development for legal language understanding (information extraction, text classification, few-shot learning, active learning and multi linguality). 
 
 ## List of publications
 
