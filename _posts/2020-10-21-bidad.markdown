@@ -61,4 +61,4 @@ In my opinion, Persian speakers appreciate this music when they follow the lyric
 * از که می‌پرسی که دور روزگاران را چه شد
   - Who do you ask all these questions about the course of time?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Dv3iiMoMSbg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3YYmnQxX4i1w8YaJH7GPkN?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
